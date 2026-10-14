@@ -5,7 +5,7 @@ class PointerDemo
 public:
 	void DoDemo();
 	private:
-		void PassByValueDemo();
+		void PassByValueDemo(int, int);
 		void PassByRefDemo();
 		void UsePointersDemo();
 		void MemLeakDemo();
