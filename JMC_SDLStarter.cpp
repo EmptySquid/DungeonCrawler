@@ -7,8 +7,8 @@
 
 using namespace std;
 
-const int resX = 1000;
-const int resY = 1000;
+const int resX = 250;
+const int resY = 250;
 
  /* We will use this renderer to draw into this window every frame. */
 static SDL_Window* window = NULL;

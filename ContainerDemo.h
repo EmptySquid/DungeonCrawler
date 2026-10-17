@@ -1,21 +1,25 @@
 #pragma once
 #include <iostream>
 
+using namespace std;
+
 class ContainerDemo
 {
-	struct MyGames
-	{
-		std::string gameName;
-		std::string gameDeveloper;
-		int timesPlayed;
-	};
-
     public:
 
 		void DoDemo();
 
     private:
+
+		struct MyGamesStruct
+		{
+			string gameName;
+			string gameDirector;
+			int releaseYear;
+		};
 		
 		void ArrayDemo();
+
+		void ListDemo();
 };
 
